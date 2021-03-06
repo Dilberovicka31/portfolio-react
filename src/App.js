@@ -1,8 +1,11 @@
 import React from "react"
 import Home from "./pages/Home";
-import Page1 from "./pages/Page1";
-import Page2 from "./pages/Page2";
+import AboutMe from "./pages/Aboutme";
+import Page2 from "./pages/Work";
 import { BrowserRouter as Router, Route} from "react-router-dom";
+import Work from "./pages/Work";
+import Contact from "./pages/Contact";
+import Art from "./pages/Art";
 
 function App(){
     return(
@@ -11,8 +14,10 @@ function App(){
 
     <Router>
         <Route exact path="/" component = {Home}/>
-        <Route exact path="/Page1" component = {Page1}/>
-        <Route exact path="/Page2" component = {Page2}/>
+        <Route exact path="/about" component = {AboutMe}/>
+        <Route exact path="/work" component = {Work}/>
+        <Route exact path="/contact" component = {Contact}/>
+        <Route exact path="/art" component = {Art}/>
 
        
     </Router>
