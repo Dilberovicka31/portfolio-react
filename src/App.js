@@ -1,11 +1,11 @@
 import React from "react"
-import Home from "./pages/Home";
-import AboutMe from "./pages/Aboutme";
+import Home from "./components/pages/Home";
+import AboutMe from "./components/pages/Aboutme";
 import { BrowserRouter as Router, Route} from "react-router-dom";
-import Work from "./pages/Work";
-import Contact from "./pages/Contact";
-import Art from "./pages/Art";
-import NavTabs from "./NavTabs";
+import Work from "./components/pages/Work";
+import Contact from "./components/pages/Contact";
+import Art from "./components/pages/Art";
+import NavTabs from "./components/NavTabs";
 
 function App(){
     return(
