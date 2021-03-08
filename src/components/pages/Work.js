@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/work.css"
 import Projects from "../Projects";
 function Work() {
     return(
