@@ -1,11 +1,11 @@
 import React from "react"
 import Home from "./pages/Home";
 import AboutMe from "./pages/Aboutme";
-import Page2 from "./pages/Work";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import Art from "./pages/Art";
+import NavTabs from "./NavTabs";
 
 function App(){
     return(
@@ -13,6 +13,7 @@ function App(){
 <div>
 
     <Router>
+        <NavTabs/>
         <Route exact path="/" component = {Home}/>
         <Route exact path="/about" component = {AboutMe}/>
         <Route exact path="/work" component = {Work}/>
