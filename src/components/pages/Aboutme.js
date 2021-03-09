@@ -4,10 +4,10 @@ import profileimg from "../images/profile.jpeg";
 function Aboutme() {
   return (
     <MDBRow className=" mt-5">
-      <MDBCol md="4" className="rounded mx-auto d-block">
+      <MDBCol md="4" className="mx-auto d-block">
         <img
           src={profileimg}
-          class="img-fluid z-depth-5 animated slideInRight"
+          class="img-fluid z-depth-5 animated slideInRight rounded mx-auto d-block mb-5"
           alt="Mia Dilberovic Profile"
         ></img>
       </MDBCol>

@@ -3,7 +3,7 @@ import { Nav, Navbar } from "react-bootstrap";
 
 function NavTabs() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg">
       <Navbar.Brand href="#home">Mia Dilberovic</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

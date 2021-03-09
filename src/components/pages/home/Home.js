@@ -1,10 +1,9 @@
 import React from "react";
+import "./home.css";
 
 function Home() {
 return (
-    <div>
-        <p>Hello World!</p>
-    </div>
+    <div className="bg"></div>
 ) 
 }
 
