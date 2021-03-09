@@ -1,0 +1,10 @@
+body,
+html {
+  min-height: 100%;
+}
+.carousel-inner {
+  max-height: 650px;
+}
+img {
+  max-height: 650px;
+}

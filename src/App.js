@@ -4,8 +4,9 @@ import AboutMe from "./components/pages/Aboutme";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
-import Art from "./components/pages/Art";
+import Art from "./components/pages/Art/Art";
 import NavTabs from "./components/NavTabs";
+import Footer from "./components/Footer"
 
 function App(){
     return(
@@ -19,6 +20,7 @@ function App(){
         <Route exact path="/work" component = {Work}/>
         <Route exact path="/contact" component = {Contact}/>
         <Route exact path="/art" component = {Art}/>
+        <Footer/>
 
        
     </Router>

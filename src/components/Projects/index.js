@@ -146,7 +146,7 @@ function Projects() {
           </MDBView>
         </MDBCol>
 
-        <MDBContainer className="mt-3">
+        <MDBContainer className="mt-3 mb-3">
           <MDBRow>
             <MDBCol md="4" className="mt-3">
               <MDBView hover>
