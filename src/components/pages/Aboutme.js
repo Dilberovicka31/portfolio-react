@@ -7,7 +7,7 @@ function Aboutme() {
       <MDBCol md="4" className="mx-auto d-block">
         <img
           src={profileimg}
-          class="img-fluid z-depth-5 animated slideInRight rounded mx-auto d-block mb-5"
+          class="img-fluid z-depth-5 animated slideInRight rounded mx-auto d-block mb-5" style={{height:"600px"}}
           alt="Mia Dilberovic Profile"
         ></img>
       </MDBCol>

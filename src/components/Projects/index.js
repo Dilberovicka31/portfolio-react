@@ -30,7 +30,7 @@ function Projects() {
             <MDBMask className="flex-center" overlay="white-strong">
               <div class="d-flex flex-column">
                 <div class="p-2">
-                  <p className=" font-weight-bolder">
+                  <p className=" font-weight-bold">
                     PooAday is app to track bowel movements along with other
                     important daily activities. Languages and technologies used:
                     Javascript, Sequelize, Node, Express, Handlebars, Passport.
@@ -73,7 +73,7 @@ function Projects() {
             <MDBMask className="flex-center" overlay="white-strong">
               <div class="d-flex flex-column">
                 <div class="p-2">
-                  <p className="font-weight-bolder">
+                  <p className="font-weight-bold">
                     Eat-Da-Burger! is a restaurant app that lets users input the
                     names of burgers they'd like to eat. Languages and
                     technologies used: Javascript, MySQL, Node, Express,
