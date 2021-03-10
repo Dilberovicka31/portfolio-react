@@ -11,7 +11,7 @@ import "./art.css"
 function Art(){
     return(
 
-        <MDBContainer className="mt-5">
+        <MDBContainer className="mt-5 mb-5">
         <MDBCarousel
           activeItem={1}
           length={5}
@@ -22,7 +22,7 @@ function Art(){
         >
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
-              <MDBView>
+              <MDBView hover zoom>
                 <img
                   className="img-fluid mx-auto d-block "
                   src={painting1}
@@ -32,7 +32,7 @@ function Art(){
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
-              <MDBView>
+              <MDBView hover zoom>
                 <img
                   className="img-fluid mx-auto d-block "
                   src={painting2}
@@ -42,7 +42,7 @@ function Art(){
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
-              <MDBView>
+              <MDBView hover zoom>
                 <img
                   className="img-fluid mx-auto d-block "
                   src={painting3}
@@ -52,7 +52,7 @@ function Art(){
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="4">
-              <MDBView>
+              <MDBView hover zoom>
                 <img
                   className="img-fluid mx-auto d-block"
                   src={painting4}
@@ -64,7 +64,7 @@ function Art(){
 
        
             <MDBCarouselItem itemId="5">
-              <MDBView>
+              <MDBView hover zoom>
                 <img
                   className="img-fluid mx-auto d-block"
                   src={painting5}

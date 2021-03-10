@@ -1,10 +1,10 @@
 import React from "react"
-import Home from "./components/pages/home/Home";
+import Home from "./components/pages/Home";
 import AboutMe from "./components/pages/Aboutme";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
-import Art from "./components/pages/Art/Art";
+import Art from "./components/pages/Art";
 import NavTabs from "./components/NavTabs";
 import Footer from "./components/Footer"
 

@@ -1,0 +1,21 @@
+body {
+  background: hsla(264, 4%, 49%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(264, 4%, 49%, 1) 0%,
+    hsla(23, 66%, 91%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(264, 4%, 49%, 1) 0%,
+    hsla(23, 66%, 91%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(264, 4%, 49%, 1) 0%,
+    hsla(23, 66%, 91%, 1) 100%
+  );
+}
