@@ -54,12 +54,7 @@ function Aboutme() {
           for hours to figure out why something isn't working.
         </p>
 
-        <p
-          className="font-weight-bolder animated slideInUp mt-5"
-          style={{ fontSize: "22px" }}
-        >
-          Technologies
-        </p>
+       
 
         <MDBContainer className="mb-5 animated slideInUp" >
           <MDBListGroup style={{ width: "22rem" }}>

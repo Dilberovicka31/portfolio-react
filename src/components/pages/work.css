@@ -19,3 +19,6 @@ body {
     hsla(23, 66%, 91%, 1) 100%
   );
 }
+a {
+  color: black;
+}
