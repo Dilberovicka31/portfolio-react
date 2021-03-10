@@ -1,6 +1,6 @@
 import { MDBRow, MDBCol, MDBView } from "mdbreact";
 import React from "react";
-import profileimg from "../images/profile.jpeg";
+import profileimg from "../../images/profile.jpeg";
 function Aboutme() {
   return (
     <MDBRow className=" mt-5">
