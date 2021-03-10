@@ -25,7 +25,7 @@ function Projects() {
               src={pooaday}
               className="img-fluid z-depth-1 animated slideInLeft"
               alt="project pooaday"
-              style={{height:"300px"}}
+              style={{ height: "300px" }}
             />
             <MDBMask className="flex-center" overlay="white-strong">
               <div className="d-flex flex-column">
@@ -42,6 +42,8 @@ function Projects() {
                     icon="external-link-alt"
                   />
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center mt-2"
                     href="https://pooaday.herokuapp.com/"
                   >
@@ -50,6 +52,8 @@ function Projects() {
 
                   <MDBIcon className="mt-2 flex-center" fab icon="github" />
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center"
                     href="https://github.com/JJHPhoto/pooaday"
                   >
@@ -67,8 +71,7 @@ function Projects() {
               src={burgerapp}
               className="img-fluid z-depth-1 animated slideInDown"
               alt="project burger app"
-              style={{height:"300px"}}
-             
+              style={{ height: "300px" }}
             />
             <MDBMask className="flex-center" overlay="white-strong">
               <div className="d-flex flex-column">
@@ -86,6 +89,8 @@ function Projects() {
                     icon="external-link-alt"
                   />{" "}
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center"
                     href="https://agile-shore-61720.herokuapp.com/"
                   >
@@ -93,6 +98,8 @@ function Projects() {
                   </a>
                   <MDBIcon className="mt-2 flex-center" fab icon="github" />
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center"
                     href="https://github.com/Dilberovicka31/BURGER-APP"
                   >
@@ -110,7 +117,7 @@ function Projects() {
               src={covidtracker}
               className="img-fluid z-depth-1 animated slideInLeft"
               alt="project covid tracker"
-              style={{height:"300px"}}
+              style={{ height: "300px" }}
             />
             <MDBMask className="flex-center" overlay="white-strong">
               <div className="d-flex flex-column">
@@ -127,6 +134,8 @@ function Projects() {
                     icon="external-link-alt"
                   />
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center"
                     href="https://github.com/UWCode-Group-5/State-COVID-Tracker/"
                   >
@@ -135,6 +144,8 @@ function Projects() {
 
                   <MDBIcon className="mt-2 flex-center" fab icon="github" />
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-center"
                     href="https://pooaday.herokuapp.com/"
                   >
@@ -154,7 +165,7 @@ function Projects() {
                   src={weather}
                   className="img-fluid z-depth-1 animated slideInRight"
                   alt="project weather"
-                  style={{height:"300px"}}
+                  style={{ height: "300px" }}
                 />
                 <MDBMask className="flex-center" overlay="white-strong">
                   <div className="d-flex flex-column">
@@ -170,6 +181,8 @@ function Projects() {
                         icon="external-link-alt"
                       />
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://dilberovicka31.github.io/WEATHER-FORECAST/"
                       >
@@ -178,6 +191,8 @@ function Projects() {
 
                       <MDBIcon className="mt-2 flex-center" fab icon="github" />
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://github.com/Dilberovicka31/WEATHER-FORECAST"
                       >
@@ -194,8 +209,7 @@ function Projects() {
                   src={employeedb}
                   className="img-fluid z-depth-1 animated slideInUp "
                   alt="project employeedb"
-                  style={{height:"300px"}}
-                 
+                  style={{ height: "300px" }}
                 />
                 <MDBMask className="flex-center mt-2" overlay="white-strong">
                   <div className="d-flex flex-column">
@@ -214,6 +228,8 @@ function Projects() {
                         icon="external-link-alt"
                       />{" "}
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://employee-dr.herokuapp.com/"
                       >
@@ -225,6 +241,8 @@ function Projects() {
                         icon="github"
                       />
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://github.com/Dilberovicka31/employee-directory"
                       >
@@ -242,12 +260,11 @@ function Projects() {
                   src={budget}
                   className="z-depth-1 animated slideInRight w-100"
                   alt="project budget"
-                  style={{height:"300px"}}
+                  style={{ height: "300px" }}
                 />
                 <MDBMask className="flex-center" overlay="white-strong">
                   <div className="d-flex flex-column">
                     <div className="p-2">
-                      
                       <p className="font-weight-bold">
                         Budget tracker app that allows you to add deposits and
                         expenses with or without connection. Languages and
@@ -256,12 +273,13 @@ function Projects() {
                       </p>
                     </div>
                     <div className="p-2">
-                    
                       <MDBIcon
                         className=" flex-center"
                         icon="external-link-alt"
                       />
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://enigmatic-dusk-53750.herokuapp.com/"
                       >
@@ -273,6 +291,8 @@ function Projects() {
                         icon="github"
                       />
                       <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex-center"
                         href="https://github.com/Dilberovicka31/BUDGET-TRACKERS"
                       >
