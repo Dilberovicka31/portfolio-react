@@ -5,7 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 function NavTabs() {
   return (
     <Navbar className="mr-3 ml-3" expand="lg">
-      <Navbar.Brand  href="#home" style={{fontSize:"30px", color:"black"}}>Mia Dilberovic</Navbar.Brand>
+      <Navbar.Brand  href="/" style={{fontSize:"30px", color:"black"}}>Mia Dilberovic</Navbar.Brand>
       <MDBNavbarNav right>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

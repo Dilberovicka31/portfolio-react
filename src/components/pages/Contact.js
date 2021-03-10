@@ -1,4 +1,4 @@
-import { MDBCol, MDBIcon, MDBRow } from "mdbreact";
+import { MDBCol, MDBContainer, MDBIcon, MDBRow } from "mdbreact";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFile } from '@fortawesome/free-solid-svg-icons';
@@ -10,6 +10,7 @@ function Contact () {
    
    
       return (
+        <MDBContainer>
         <MDBRow>
             <MDBCol md="12" className="text-center mt-5" style={{marginBottom:"332px"}}>
             <MDBIcon icon="phone" style={{fontSize:"30px"}}/>
@@ -19,9 +20,15 @@ function Contact () {
             <FontAwesomeIcon icon={faFile} className="mt-3" style={{fontSize:"30px"}}/> <br></br>
             <a href={Resume} download="Resume.pdf" style={{color:"black", fontSize:"25px" }}>Resume</a>
             </MDBCol>
+           
+
             
             
         </MDBRow>
+
+        
+        
+        </MDBContainer>
         );
       }
     
