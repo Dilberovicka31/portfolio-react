@@ -27,4 +27,4 @@ Contact information contains all the contact info, phone, email, GitHub, resume 
 Images of my artwork 
 
 Finished product :
-https://portfolio-miadilberovic.herokuapp.com/
+https://miadilberovic.com/
